@@ -1,0 +1,254 @@
+/**
+* Default Stylesheet for www.east-african-medical-trust.org
+*
+* @author Paul Hitz (www.paulhitz.com)
+* @version 070429
+*/
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    font-weight: normal;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+#banner {
+    display: block;
+    background-color: #3a2a7e;
+    color: #ffffff;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    padding: 1px;
+}
+
+#root {
+    background-color: #ffffff;
+    color: #000000;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: #cccccc;
+    border-left: 1px;
+    border-left-style: solid;
+    border-left-color: #cccccc;
+    /* min-height: 82%; */
+}
+
+#content {
+    text-align: left;
+    padding: 10px;
+    line-height: 1.5em;
+    text-align: justify;
+    min-height: 350px;
+}
+
+#content h1 {
+    padding-bottom: 20px;
+}
+
+#content ul {
+    overflow: hidden;
+}
+
+#content span.decorative {
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 5px;
+    float: left;
+    color: #555555;
+    background-color: #eeeeee;
+    font-family: "Times New Roman", serif;
+    font-size: 6em;
+    line-height: 75%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+/* The Navigation Menu */
+#navlinks {
+    background-color: #3a2a7e;
+    padding-bottom: 10px;
+    font-size: 85%;
+    float: right;
+    width: 150px; /* This causes a minor IE6 issue. Only the link text will be clickable. */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+}
+#navlinks ul {
+    margin: 0;
+    padding: 0;
+}
+#navlinks li {
+    list-style-type: none;
+    margin: 0;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+#navlinks a:link, #navlinks a:visited, #navlinks a:hover, #navlinks a:active {
+    display: block;
+    font-weight: bold;
+    background-color: #3a2a7e;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+}
+#navlinks a:hover {
+    color: #000000;
+    background-color: #cccccc;
+}
+
+
+/* The Anchor Links */
+a:link, a:visited {
+    color: #3a2a7e;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    text-decoration: none;
+    background-color: #3a2a7e;
+    color: #ffffff;
+}
+#footer a:link, #footer a:visited {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+#footer a:active, #footer a:hover {
+    color: #3a2a7e;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* The Footer */
+#footer {
+    background-color: #3a2a7e;
+    color: #ffffff;
+    padding: 0;
+    font-size: 80%;
+    border-top: 5px;
+    border-top-style: solid;
+    border-top-color: #cccccc;
+    clear: both;
+}
+#footercontent {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+#fontsize {
+    float: left;
+    text-align: left;
+}
+#copyright {
+    text-align: right;
+}
+
+
+/*
+ * This is used to help visually identify the access keys. They will 
+ * be underlined. The default behaviour of the EM tag to make the text 
+ * italic is over-ruled with font-style.
+ */
+em {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+/*
+ * Adds a dotted line under text that has a TITLE attribute with a corresponding 
+ * definition. A better way would be to use the abbreviation tag but IE6 has 
+ * problems with this.
+ */
+.definition {
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    cursor: help;
+}
+
+.warning {
+    color: #ff0000;
+}
+.ok {
+    color: #009900;
+    font-weight: bold;
+}
+
+hr {
+    border: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+.textbox {
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+    border: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+/* The comments form */
+#comments {
+    width: 400px;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-top: 5px;
+    border-top-style: solid;
+    border-top-color: #cccccc;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: #cccccc;
+    border-left: 1px;
+    border-left-style: solid;
+    border-left-color: #cccccc;
+}
+#comments ul {
+    margin: 0;
+    padding: 0;
+}
+#comments li {
+    list-style: none;
+    margin: 0;
+    margin-top: 10px;
+}
+#comments label {
+    width: 100px;
+    display: -moz-inline-box; /* Mozilla doesn't implement inline-block correctly */
+    display: inline-block;
+    line-height: 1.8;
+    vertical-align: top;
+}
+
+#bookCover {
+    float: left; 
+    width: 177px; 
+    height: 251px; 
+    margin-right: 10px;
+}

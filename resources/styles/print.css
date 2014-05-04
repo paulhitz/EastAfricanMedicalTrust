@@ -1,0 +1,46 @@
+/**
+ * This stylesheet is used for printing. It hides all of the site 
+ * except the content and uses more printer friendly colours and fonts.
+ *
+ * @author Paul Hitz (www.paulhitz.com)
+ * @version 070429
+ */
+
+
+body, #root, #content, #banner, #footer {
+    background-color: #ffffff;
+    background-image: none;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+    width: 100%;
+    text-align: left;
+}
+
+#root, #content {
+    margin: 0;
+    border: 0;
+}
+
+#navlinks, #fontsize {
+    display: none;
+}
+
+#copyright {
+    text-align: center;
+}
+
+.definition {
+    border-bottom-width: 0;
+}
+
+a:link, a:visited {
+    color: #552200;
+    background: transparent;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:link:after, a:visited:after {
+    content: " (" attr(href) ") ";
+    font-size: 90%;
+}

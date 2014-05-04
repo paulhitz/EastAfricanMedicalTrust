@@ -1,0 +1,8 @@
+﻿/* TEAM */
+	Creator: Paul Hitz
+	Contact: http://www.paulhitz.com/
+	Location: Dublin, Ireland
+
+/* SITE */
+	Standards: XHTML1.1, CSS2, WAI-A
+	Software: Notepad++, GIMP

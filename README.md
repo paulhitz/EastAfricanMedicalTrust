@@ -7,3 +7,5 @@ Standards Compliance...
 * XHTML1.1
 * CSS2
 * WAI-A
+
+Live site is available at http://www.east-african-medical-trust.org/
