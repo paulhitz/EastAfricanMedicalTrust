@@ -23,7 +23,7 @@ body {
 
 #banner {
     display: block;
-    background-color: #3a2a7e;
+    background-color: #a97b50;
     color: #ffffff;
     border-bottom: 5px;
     border-bottom-style: solid;
@@ -80,7 +80,7 @@ body {
 
 /* The Navigation Menu */
 #navlinks {
-    background-color: #3a2a7e;
+    background-color: #a97b50;
     padding-bottom: 10px;
     font-size: 85%;
     float: right;
@@ -103,7 +103,7 @@ body {
 #navlinks a:link, #navlinks a:visited, #navlinks a:hover, #navlinks a:active {
     display: block;
     font-weight: bold;
-    background-color: #3a2a7e;
+    background-color: #a97b50;
     color: #ffffff;
     text-decoration: none;
     padding: 8px;
@@ -116,13 +116,13 @@ body {
 
 /* The Anchor Links */
 a:link, a:visited {
-    color: #3a2a7e;
+    color: #a97b50;
     background-color: transparent;
     text-decoration: underline;
 }
 a:active, a:hover {
     text-decoration: none;
-    background-color: #3a2a7e;
+    background-color: #a97b50;
     color: #ffffff;
 }
 #footer a:link, #footer a:visited {
@@ -131,7 +131,7 @@ a:active, a:hover {
     text-decoration: underline;
 }
 #footer a:active, #footer a:hover {
-    color: #3a2a7e;
+    color: #000000;
     background-color: #ffffff;
     text-decoration: none;
 }
@@ -139,7 +139,7 @@ a:active, a:hover {
 
 /* The Footer */
 #footer {
-    background-color: #3a2a7e;
+    background-color: #a97b50;
     color: #ffffff;
     padding: 0;
     font-size: 80%;
@@ -207,48 +207,17 @@ hr {
     border-color: #000000;
 }
 
-/* The comments form */
-#comments {
-    width: 400px;
-    margin-top: 75px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    background-color: #eeeeee;
-    border-top: 5px;
-    border-top-style: solid;
-    border-top-color: #cccccc;
-    border-bottom: 5px;
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-    border-right: 1px;
-    border-right-style: solid;
-    border-right-color: #cccccc;
-    border-left: 1px;
-    border-left-style: solid;
-    border-left-color: #cccccc;
-}
-#comments ul {
-    margin: 0;
-    padding: 0;
-}
-#comments li {
-    list-style: none;
-    margin: 0;
-    margin-top: 10px;
-}
-#comments label {
-    width: 100px;
-    display: -moz-inline-box; /* Mozilla doesn't implement inline-block correctly */
-    display: inline-block;
-    line-height: 1.8;
-    vertical-align: top;
-}
-
 #bookCover {
     float: left; 
     width: 177px; 
     height: 251px; 
     margin-right: 10px;
+}
+
+/* Used for the 3rd party commenting system. */
+#HCB_comment_box textarea {
+    width: 400px !important;
+}
+#HCB_comment_box h3 {
+    display: none;
 }
