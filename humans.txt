@@ -4,5 +4,5 @@
 	Location: Dublin, Ireland
 
 /* SITE */
-	Standards: XHTML1.1, CSS2, WAI-A
+	Standards: XHTML1.1, CSS3, WAI-A
 	Software: Notepad++, GIMP

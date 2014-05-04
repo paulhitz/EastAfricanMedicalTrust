@@ -3,7 +3,7 @@
   <p>Site name: East African Medical Trust (Registered Charity CHY-16991)<br/>Site design and implementation by: <a href="http://www.paulhitz.com/">Paul Hitz</a></p>
 
   <h2>Industry Standards</h2>
-  <p>This site fully conforms to the XHTML1.1 and CSS2 standards.</p>
+  <p>This site fully conforms to the XHTML1.1 and CSS3 standards.</p>
   <p>
     <a href="http://validator.w3.org/check?uri=http://www.east-african-medical-trust.org/"><img style="border: 0; width: 88px; height: 31px;" src="resources/images/valid-xhtml11.png" alt="Valid XHTML 1.1!" /></a> 
     <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.east-african-medical-trust.org/styles/styles.css"><img style="border: 0; width: 88px; height: 31px;" src="resources/images/vcss.png" alt="Valid CSS!" /></a> 
@@ -12,7 +12,7 @@
   <p>More Information:</p>
   <ul>
     <li><a href="http://www.w3.org/TR/2001/REC-xhtml11-20010531/">XHTML 1.1 - Module-based XHTML</a></li>
-    <li><a href="http://www.w3.org/TR/REC-CSS2/">Cascading Style Sheets, level 2 - CSS2 Specification</a></li>
+    <li><a href="http://www.w3.org/TR/CSS/">Cascading Style Sheets Specification - Latest</a></li>
     <li><a href="http://www.w3.org/WAI/">Web Accessibility Initiative (WAI)</a></li>
   </ul>
 
