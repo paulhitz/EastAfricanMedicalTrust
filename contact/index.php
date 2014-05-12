@@ -1,7 +1,6 @@
 <?php $title = "Contact Us"; include("../header.html"); ?>
   <h1>Contact Us</h1>
 
-  <p><strong>William Howlett:</strong> <a href="mailto:w.howlett@btinternet.com">w.howlett@btinternet.com</a></p>
   <p><strong>Kevin O'Doherty:</strong><br/>
      State Solicitor for Wexford<br/>
      Melrose<br/>
