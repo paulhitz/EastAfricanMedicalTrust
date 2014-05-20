@@ -6,7 +6,7 @@
   <ul>
     <li><a href="resources/pdf/flyer.pdf">Flyer</a></li>
     <li><a href="resources/pdf/poster.pdf">Poster</a></li>
-    <li><a href="http://www.uib.no/en/cih/72120/neurology-africa">Full textbook available at the University of Bergen</a></li>
+    <li><a href="http://www.uib.no/cih/en/resources/neurology-in-africa">Full textbook available at the University of Bergen</a></li>
   </ul>
 
 <?php include("../footer.html"); ?>
