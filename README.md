@@ -6,7 +6,7 @@ Live site is available at http://www.east-african-medical-trust.org/
 A simple charity website I created for the **East African Medical Trust** (Registered Charity CHY-16991).
 
 Standards Compliance...
-* XHTML1.1 - This was in 2007, well before HTML5.
+* XHTML1.1 - This was back in 2007, well before HTML5.
 * CSS3
 * WAI-A
 
